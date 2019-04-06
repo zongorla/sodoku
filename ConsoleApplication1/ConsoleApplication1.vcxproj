@@ -79,7 +79,94 @@
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
-  <ItemDefinitionGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <Verbose>true</Verbose>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>
+      </AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
